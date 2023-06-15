@@ -12,7 +12,6 @@ const Details = ({det}) => {
 		<>
 			<section className="d-header">
 				<div className="d-header-image">
-					{/* {links.mission_patch} */}
 					<img src={det.links.mission_patch} alt="" height='60px' width='60px'/>
 				</div>
 				<div className="d-header-content">

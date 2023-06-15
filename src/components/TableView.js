@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react'
+import React, { useState } from 'react'
 import {Table, Tag} from 'antd'
 import DetailModal from './DetailsModal/DetailsModal'
 import { formatDate } from '../utils'
@@ -42,7 +42,6 @@ const columns = [
 	},
 	{
 		title: 'Launch Status',
-		// dataIndex: 'rocket', // if upcoming => false then consider launch_success key
 		key: 'launch_success',
 		render: (_, object) => {
 			if (object.upcoming) {
@@ -55,7 +54,6 @@ const columns = [
 	},
 	{
 		title: 'Rocket',
-		// dataIndex: 'address',
 		key: 'rocket',
 		render: (_, object) => {
 			return (<>{object.rocket.rocket_name}</>)
@@ -68,17 +66,6 @@ const TableView = (props) => {
 
 	const [detailModalVisible, setDetailModalVisible] = useState(false)
 	const [activeDetail, setActiveDetail] = useState(null)
-	// const [tableData, setTableData] = useState(null)
-
-	// useEffect(() => {
-	// 	if (activeLaunchesType) {
-	// 		setAlternateData(filterAlternateData(activeLaunchesType))
-	// 	}
-	// 	// else {
-	// 	// 	setTableData(data)
-	// 	// }
-	// // eslint-disable-next-line react-hooks/exhaustive-deps
-	// }, [activeLaunchesType])
 
 	const handleCancel = () => {
 		setDetailModalVisible(false)
