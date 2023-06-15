@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/spacex-dashboard/static/css/main.ee01b002.css",
+    "main.js": "/spacex-dashboard/static/js/main.9b508d2d.js",
+    "static/js/787.705ec0fe.chunk.js": "/spacex-dashboard/static/js/787.705ec0fe.chunk.js",
+    "static/media/logo.png": "/spacex-dashboard/static/media/logo.192a8ce7def9e7c13012.png",
+    "index.html": "/spacex-dashboard/index.html",
+    "main.ee01b002.css.map": "/spacex-dashboard/static/css/main.ee01b002.css.map",
+    "main.9b508d2d.js.map": "/spacex-dashboard/static/js/main.9b508d2d.js.map",
+    "787.705ec0fe.chunk.js.map": "/spacex-dashboard/static/js/787.705ec0fe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee01b002.css",
+    "static/js/main.9b508d2d.js"
+  ]
+}
